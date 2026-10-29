@@ -1,5 +1,5 @@
 // digitiska.com behaviour: kit catalogue, kit details, demo, estimator, enquiries.
-const EMAIL = 'digitiska@protonmail.com';
+const EMAIL = 'digitiska@tuta.io';
 const ph = s => `<span class="ph">${s}</span>`;
 const $ = s => document.querySelector(s);
 const icon = id => `<svg aria-hidden="true"><use href="#${id}"/></svg>`;
