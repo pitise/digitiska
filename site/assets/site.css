@@ -43,7 +43,7 @@ svg { flex: none; }
 .top .wrap { height: 68px; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
 .brand { display: flex; align-items: center; gap: 10px; min-height: 44px; text-decoration: none; }
 .brand .logo { width: 36px; height: 36px; border-radius: 10px; display: grid; place-items: center; background: var(--green); color: #fff; }
-.brand .logo svg { width: 20px; height: 20px; }
+.brand .logo svg { width: 24px; height: 24px; }
 .brand b { font-family: var(--display); font-weight: 850; font-stretch: 90%; font-size: 1.35rem; letter-spacing: -0.01em; }
 .pills { display: none; gap: 4px; padding: 4px; border-radius: 999px; background: var(--raised); border: 1px solid var(--line); }
 .pills a { padding: 9px 16px; border-radius: 999px; font-size: .95rem; font-weight: 600; text-decoration: none; color: var(--muted); transition: color .2s, background-color .2s; }
@@ -71,6 +71,7 @@ svg { flex: none; }
 .chip.live::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--mint); }
 .chip.wip { color: var(--text); border-color: var(--line-2); background: var(--surface-2); }
 .chip.works { color: var(--muted); border-color: var(--line); }
+.chip.free { color: var(--text); border-color: rgba(110, 231, 160, .4); }
 
 /* Hero */
 .hero { padding-top: 40px; padding-bottom: 72px; }

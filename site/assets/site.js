@@ -53,6 +53,10 @@ const KITS = [
   { name: 'Motorcycle business launch kit', cat: 'Trade kits', aud: 'Trades', status: 'live', format: 'Template pack', tiers: 'Core or Complete', price: null,
     desc: 'Quote a job, get it approved and invoice it, without typing the same details twice.',
     inc: ['Quotes', 'Invoices', 'Forms', 'Two sizes: Core or Complete'], url: 'https://quote-to-invoice.digitiska.com' },
+  { name: 'Solat Times', cat: 'Free apps', aud: 'Families', who: 'Muslims in Malaysia', status: 'free', format: 'Phone app', lang: 'Bahasa Malaysia', price: 'Free',
+    desc: 'Prayer times for your zone in Malaysia, from the JAKIM e-Solat timetable, with a Qibla compass.',
+    inc: ['Times for your JAKIM zone', 'Qibla compass', 'Works offline once installed'], url: 'https://solat.digitiska.com', cta: 'Open Solat Times',
+    note: 'Free. Opens in your browser; choose Add to Home screen to install it.' },
   { name: 'Freelance template pack', cat: 'Business tools', aud: 'Freelancers', status: 'wip', format: 'Template pack', desc: 'Ready-made templates for freelancers, being built in Studio now.' },
   { name: ph('Xero setup checklist'), cat: 'Accounting', aud: 'Small businesses', status: 'works', format: 'Checklist' },
   { name: ph('QuickBooks month-end checklist'), cat: 'Accounting', aud: 'Small businesses', status: 'works', format: 'Checklist' },
@@ -65,8 +69,8 @@ const KITS = [
   { name: ph('Photography booking kit'), cat: 'Trade kits', aud: 'Trades', status: 'works', format: 'Template pack' },
   { name: ph('Price and margin calculator'), cat: 'Business tools', aud: 'Product makers', status: 'works', format: 'Small app' },
 ];
-const STATUS = { live: ['live', 'Live'], wip: ['wip', 'In progress'], works: ['works', 'In the works'] };
-const CATS = ['All', 'Trade kits', 'Accounting', 'Family', 'Business tools'];
+const STATUS = { live: ['live', 'Live'], wip: ['wip', 'In progress'], works: ['works', 'In the works'], free: ['free', 'Free'] };
+const CATS = ['All', 'Trade kits', 'Accounting', 'Family', 'Business tools', 'Free apps'];
 const AUDS = ['All', 'Trades', 'Small businesses', 'Families', 'Freelancers', 'Product makers'];
 let cat = 'All', aud = 'All';
 
@@ -75,16 +79,16 @@ const chip = k => { const [cls, label] = STATUS[k.status]; return `<span class="
 function render() {
   $('#feature').innerHTML = KITS.map((k, i) => {
     if (k.status === 'works') return '';
-    const live = k.status === 'live';
+    const live = !!k.url;
     return `<article class="feat" data-cat="${k.cat}" data-aud="${k.aud}">
       <div>
         <h3>${k.name}</h3>
-        <p class="meta">${chip(k)}<span>${k.format} · For ${k.aud.toLowerCase()}${k.tiers ? ' · ' + k.tiers : ''}</span>${k.rating ? `<span>${k.rating} rating</span>` : ''}</p>
+        <p class="meta">${chip(k)}<span>${k.format} · For ${k.who || k.aud.toLowerCase()}${k.tiers ? ' · ' + k.tiers : ''}</span>${k.rating ? `<span>${k.rating} rating</span>` : ''}</p>
         <p class="desc">${k.desc}</p>
         ${k.inc ? `<ul>${k.inc.slice(0, 3).map(x => `<li>${icon('i-check')}${x}</li>`).join('')}</ul>` : ''}
       </div>
       <div class="buy">${live
-        ? `<p class="price-note">Prices for Core and Complete are on the kit page.</p><a class="btn btn-primary" href="${k.url}">Open the kit page ${icon('i-out')}</a><button class="more" data-kit="${i}">See what is inside</button>`
+        ? `<p class="price-note">${k.note || 'Prices for Core and Complete are on the kit page.'}</p><a class="btn btn-primary" href="${k.url}">${k.cta || 'Open the kit page'} ${icon('i-out')}</a><button class="more" data-kit="${i}">See what is inside</button>`
         : `<button class="btn btn-ghost" data-enquire="Interest: ${k.name}">Register interest</button>`}</div>
     </article>`;
   }).join('');
@@ -114,7 +118,7 @@ pills($('#f-cat'), CATS, () => cat, v => cat = v);
 pills($('#f-aud'), AUDS, () => aud, v => aud = v);
 render();
 
-// Kit details dialog (live kit)
+// Kit details dialog (kits and apps with a page)
 const kd = $('#kit-d');
 document.addEventListener('click', e => {
   const b = e.target.closest('[data-kit]'); if (!b) return;
@@ -122,10 +126,10 @@ document.addEventListener('click', e => {
   $('#kd-t').innerHTML = k.name;
   $('#kd-chips').innerHTML = `${chip(k)}<span class="chip">${k.cat}</span>`;
   $('#kd-desc').textContent = k.desc;
-  $('#kd-specs').innerHTML = `<div><small>Format</small><b>${k.format}</b></div><div><small>For</small><b>${k.aud}</b></div><div><small>Sizes</small><b>${k.tiers || 'To be set'}</b></div>`;
+  $('#kd-specs').innerHTML = `<div><small>Format</small><b>${k.format}</b></div><div><small>For</small><b>${k.who || k.aud}</b></div>${k.lang ? `<div><small>Language</small><b>${k.lang}</b></div>` : `<div><small>Sizes</small><b>${k.tiers || 'To be set'}</b></div>`}`;
   $('#kd-inc').innerHTML = (k.inc || []).map(x => `<li>${icon('i-check')}<span>${x}</span></li>`).join('');
   $('#kd-price').innerHTML = k.price || (k.url ? 'On the kit page' : 'To be set');
-  $('#kd-act').innerHTML = k.url ? `<a class="btn btn-primary" href="${k.url}">Open the kit page ${icon('i-out')}</a>` : '';
+  $('#kd-act').innerHTML = k.url ? `<a class="btn btn-primary" href="${k.url}">${k.cta || 'Open the kit page'} ${icon('i-out')}</a>` : '';
   kd.showModal();
 });
 
