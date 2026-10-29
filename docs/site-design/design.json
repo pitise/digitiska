@@ -1,0 +1,488 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-29T00:00:00Z",
+  "title": "Design System: Digitiska public site",
+  "extensions": {
+    "colorMeta": {
+      "mint": {
+        "role": "primary",
+        "displayName": "Live Mint",
+        "canonical": "oklch(84.0% 0.149 155)",
+        "tonalRamp": [
+          "#001700",
+          "#003100",
+          "#004c18",
+          "#1b6a41",
+          "#22804f",
+          "#50b67b",
+          "#6ee7a0",
+          "#c7fed9"
+        ]
+      },
+      "green": {
+        "role": "primary",
+        "displayName": "Workshop Green",
+        "canonical": "oklch(53.3% 0.116 156)",
+        "tonalRamp": [
+          "#001700",
+          "#003100",
+          "#004c18",
+          "#1b6a41",
+          "#22804f",
+          "#50b67b",
+          "#6ee7a0",
+          "#c7fed9"
+        ]
+      },
+      "green-deep": {
+        "role": "primary",
+        "displayName": "Workshop Green Deep",
+        "canonical": "oklch(46.6% 0.101 156)",
+        "tonalRamp": [
+          "#001700",
+          "#003100",
+          "#004c18",
+          "#1b6a41",
+          "#22804f",
+          "#50b67b",
+          "#6ee7a0",
+          "#c7fed9"
+        ]
+      },
+      "amber": {
+        "role": "tertiary",
+        "displayName": "Placeholder Amber",
+        "canonical": "oklch(83.7% 0.164 84)",
+        "tonalRamp": [
+          "#3d1500",
+          "#593000",
+          "#7c5200",
+          "#9e7200",
+          "#c4972a",
+          "#ebbd57",
+          "#fbbf24",
+          "#ffebaf"
+        ]
+      },
+      "ground": {
+        "role": "neutral",
+        "displayName": "Workbench Black",
+        "canonical": "oklch(15.9% 0.005 264)",
+        "tonalRamp": [
+          "#0a0b0d",
+          "#202224",
+          "#393a3d",
+          "#595b5d",
+          "#797a7d",
+          "#9d9ea1",
+          "#c2c4c7",
+          "#eeeef0"
+        ]
+      },
+      "raised": {
+        "role": "neutral",
+        "displayName": "Raised",
+        "canonical": "oklch(19.5% 0.007 258)",
+        "tonalRamp": [
+          "#0a0b0d",
+          "#202224",
+          "#393a3d",
+          "#595b5d",
+          "#797a7d",
+          "#9d9ea1",
+          "#c2c4c7",
+          "#eeeef0"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Surface",
+        "canonical": "oklch(21.3% 0.008 264)",
+        "tonalRamp": [
+          "#0a0b0d",
+          "#202224",
+          "#393a3d",
+          "#595b5d",
+          "#797a7d",
+          "#9d9ea1",
+          "#c2c4c7",
+          "#eeeef0"
+        ]
+      },
+      "surface-2": {
+        "role": "neutral",
+        "displayName": "Surface Two",
+        "canonical": "oklch(24.3% 0.011 261)",
+        "tonalRamp": [
+          "#0a0b0d",
+          "#202224",
+          "#393a3d",
+          "#595b5d",
+          "#797a7d",
+          "#9d9ea1",
+          "#c2c4c7",
+          "#eeeef0"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "rgba(236, 237, 238, .09)",
+        "tonalRamp": [
+          "#0a0b0d",
+          "#202224",
+          "#393a3d",
+          "#595b5d",
+          "#797a7d",
+          "#9d9ea1",
+          "#c2c4c7",
+          "#eeeef0"
+        ]
+      },
+      "line-2": {
+        "role": "neutral",
+        "displayName": "Hairline Strong",
+        "canonical": "rgba(236, 237, 238, .16)",
+        "tonalRamp": [
+          "#0a0b0d",
+          "#202224",
+          "#393a3d",
+          "#595b5d",
+          "#797a7d",
+          "#9d9ea1",
+          "#c2c4c7",
+          "#eeeef0"
+        ]
+      },
+      "text": {
+        "role": "neutral",
+        "displayName": "Text",
+        "canonical": "oklch(94.6% 0.002 248)",
+        "tonalRamp": [
+          "#0a0b0d",
+          "#202224",
+          "#393a3d",
+          "#595b5d",
+          "#797a7d",
+          "#9d9ea1",
+          "#c2c4c7",
+          "#eeeef0"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "canonical": "oklch(73.0% 0.012 257)",
+        "tonalRamp": [
+          "#0a0b0d",
+          "#202224",
+          "#393a3d",
+          "#595b5d",
+          "#797a7d",
+          "#9d9ea1",
+          "#c2c4c7",
+          "#eeeef0"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper (demo document only)",
+        "canonical": "oklch(96.6% 0.004 122)",
+        "tonalRamp": [
+          "#0b0b0a",
+          "#212220",
+          "#3a3b38",
+          "#5a5b59",
+          "#7a7b78",
+          "#9e9f9c",
+          "#d6dbd5",
+          "#f3f4f1"
+        ]
+      },
+      "paper-ink": {
+        "role": "neutral",
+        "displayName": "Paper Ink",
+        "canonical": "#1c2230",
+        "tonalRamp": [
+          "#0a0b0d",
+          "#202224",
+          "#393a3d",
+          "#595b5d",
+          "#797a7d",
+          "#9d9ea1",
+          "#c2c4c7",
+          "#eeeef0"
+        ]
+      },
+      "paper-rule": {
+        "role": "neutral",
+        "displayName": "Paper Rule",
+        "canonical": "#d6dbd5",
+        "tonalRamp": [
+          "#0a0b0d",
+          "#202224",
+          "#393a3d",
+          "#595b5d",
+          "#797a7d",
+          "#9d9ea1",
+          "#c2c4c7",
+          "#eeeef0"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Home hero headline only; second line in mint. Archivo 850 at 90 percent width."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section headings, Studio flagship heading, final call."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Kit row names, mailbox heading, sub-section heads."
+      },
+      "row-title": {
+        "displayName": "Row title",
+        "purpose": "Bold first column of ruled rows, service names, panel heads, footer column heads."
+      },
+      "lede": {
+        "displayName": "Lede",
+        "purpose": "Paragraph under a hero, muted, 34 to 36em."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Reading text."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Buttons, nav, filters; chips at 0.85rem."
+      },
+      "data": {
+        "displayName": "Data",
+        "purpose": "Azeret Mono for status words, step numbers and calculator prices only."
+      }
+    },
+    "shadows": [
+      {
+        "name": "bench-panel",
+        "value": "0 24px 48px -28px rgba(0, 0, 0, .9)",
+        "purpose": "Hero demo panel and Studio-view illustration panel only."
+      },
+      {
+        "name": "dialog-lift",
+        "value": "0 40px 80px -30px #000",
+        "purpose": "Modal dialogs, over a rgba(0, 0, 0, .78) backdrop."
+      },
+      {
+        "name": "active-underline",
+        "value": "inset 0 -2px 0 #6ee7a0",
+        "purpose": "Active nav pill and pressed audience filter; a state mark, not elevation."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "House ease for button press, arrow nudge, demo nodes, unroll, dialog rise and toast."
+      },
+      {
+        "name": "press",
+        "value": "transform .15s; scale(.98) on :active",
+        "purpose": "Button press."
+      },
+      {
+        "name": "arrow-nudge",
+        "value": "transform .25s; translateX(3px) on hover",
+        "purpose": "Trailing arrow in buttons."
+      },
+      {
+        "name": "demo-node",
+        "value": "border-color, background-color .4s",
+        "purpose": "Demo step lighting in turn."
+      },
+      {
+        "name": "unroll",
+        "value": "opacity 0 and scaleY(.85) to none, .5s, top origin",
+        "purpose": "Paper invoice appearing at the end of the demo."
+      },
+      {
+        "name": "rise",
+        "value": "opacity 0 and translateY(12px) to none, .3s",
+        "purpose": "Dialog open."
+      },
+      {
+        "name": "toast",
+        "value": "transform .45s, translate(-50%, 140%) to translate(-50%, 0)",
+        "purpose": "Toast slide-up."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "animation and transition none; scroll-behavior auto",
+        "purpose": "Always honoured."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "lg",
+        "value": "1000px"
+      }
+    ],
+    "focusRing": "3px solid #6ee7a0, offset 3px, radius 6px",
+    "placeholderMark": "border-bottom: 1px dashed #fbbf24; ::after content '†' in #fbbf24 at .8em",
+    "productionCarryOvers": [
+      "Self-host Archivo, Atkinson Hyperlegible Next and Azeret Mono (the mock loads Google Fonts).",
+      "Replace every † placeholder.",
+      "Write the Privacy, Terms and Service terms pages."
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Filled Workshop Green, white text, trailing arrow that nudges on hover.",
+      "html": "<button class=\"ds-btn ds-btn-primary\">Explore kits <svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" aria-hidden=\"true\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M5 12h14M13 6l6 6-6 6\"/></svg></button>",
+      "css": ":root{--bg:#0c0d0f;--raised:#131518;--surface:#17191d;--surface-2:#1d2025;--line:rgba(236,237,238,.09);--line-2:rgba(236,237,238,.16);--text:#ecedee;--muted:#a3a8af;--mint:#6ee7a0;--green:#22804f;--green-deep:#1b6a41;--amber:#fbbf24;--ease:cubic-bezier(.16,1,.3,1);--display:\"Archivo\",ui-sans-serif,system-ui,sans-serif;--body:\"Atkinson Hyperlegible Next\",ui-sans-serif,system-ui,sans-serif;--mono:\"Azeret Mono\",ui-monospace,monospace;} .ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 24px;border-radius:12px;border:0;cursor:pointer;font:700 1rem var(--body);text-decoration:none;transition:transform .15s var(--ease),background-color .2s,border-color .2s;} .ds-btn svg{transition:transform .25s var(--ease);} .ds-btn:hover svg{transform:translateX(3px);} .ds-btn:active{transform:scale(.98);} .ds-btn:focus-visible{outline:3px solid var(--mint);outline-offset:3px;} .ds-btn-primary{color:#fff;background:var(--green);} .ds-btn-primary:hover{background:var(--green-deep);}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Transparent with a strong hairline; outline turns mint on hover.",
+      "html": "<button class=\"ds-btn ds-btn-ghost\">Get it set up for you</button>",
+      "css": ":root{--bg:#0c0d0f;--raised:#131518;--surface:#17191d;--surface-2:#1d2025;--line:rgba(236,237,238,.09);--line-2:rgba(236,237,238,.16);--text:#ecedee;--muted:#a3a8af;--mint:#6ee7a0;--green:#22804f;--green-deep:#1b6a41;--amber:#fbbf24;--ease:cubic-bezier(.16,1,.3,1);--display:\"Archivo\",ui-sans-serif,system-ui,sans-serif;--body:\"Atkinson Hyperlegible Next\",ui-sans-serif,system-ui,sans-serif;--mono:\"Azeret Mono\",ui-monospace,monospace;} .ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 24px;border-radius:12px;border:0;cursor:pointer;font:700 1rem var(--body);text-decoration:none;transition:transform .15s var(--ease),background-color .2s,border-color .2s;} .ds-btn svg{transition:transform .25s var(--ease);} .ds-btn:hover svg{transform:translateX(3px);} .ds-btn:active{transform:scale(.98);} .ds-btn:focus-visible{outline:3px solid var(--mint);outline-offset:3px;} .ds-btn-ghost{color:var(--text);background:transparent;border:1px solid var(--line-2);} .ds-btn-ghost:hover{border-color:var(--mint);}"
+    },
+    {
+      "name": "Status Chips",
+      "kind": "chip",
+      "refersTo": "chip-live",
+      "description": "Facts about a kit: Live (mint with dot), In progress (Surface Two), Works (muted).",
+      "html": "<div class=\"ds-row\"><span class=\"ds-chip ds-live\">Live</span><span class=\"ds-chip ds-wip\">In progress</span><span class=\"ds-chip\">Template pack</span></div>",
+      "css": ":root{--bg:#0c0d0f;--raised:#131518;--surface:#17191d;--surface-2:#1d2025;--line:rgba(236,237,238,.09);--line-2:rgba(236,237,238,.16);--text:#ecedee;--muted:#a3a8af;--mint:#6ee7a0;--green:#22804f;--green-deep:#1b6a41;--amber:#fbbf24;--ease:cubic-bezier(.16,1,.3,1);--display:\"Archivo\",ui-sans-serif,system-ui,sans-serif;--body:\"Atkinson Hyperlegible Next\",ui-sans-serif,system-ui,sans-serif;--mono:\"Azeret Mono\",ui-monospace,monospace;} .ds-row{display:flex;gap:8px;padding:16px;background:var(--bg);} .ds-chip{display:inline-flex;align-items:center;gap:7px;padding:4px 11px;border-radius:999px;font:700 .85rem var(--body);border:1px solid var(--line-2);color:var(--muted);} .ds-live{color:var(--mint);border-color:rgba(110,231,160,.4);} .ds-live::before{content:\"\";width:7px;height:7px;border-radius:50%;background:var(--mint);} .ds-wip{color:var(--text);background:var(--surface-2);}"
+    },
+    {
+      "name": "Pill Navigation",
+      "kind": "nav",
+      "refersTo": "nav-pills",
+      "description": "Desktop pill track; current page on Surface Two with a mint inset underline.",
+      "html": "<nav class=\"ds-pills\"><a href=\"#\">Kits</a><a href=\"#\" class=\"ds-on\" aria-current=\"page\">Studio</a><a href=\"#\">Services</a><a href=\"#\">About</a><a href=\"#\">Contact</a></nav>",
+      "css": ":root{--bg:#0c0d0f;--raised:#131518;--surface:#17191d;--surface-2:#1d2025;--line:rgba(236,237,238,.09);--line-2:rgba(236,237,238,.16);--text:#ecedee;--muted:#a3a8af;--mint:#6ee7a0;--green:#22804f;--green-deep:#1b6a41;--amber:#fbbf24;--ease:cubic-bezier(.16,1,.3,1);--display:\"Archivo\",ui-sans-serif,system-ui,sans-serif;--body:\"Atkinson Hyperlegible Next\",ui-sans-serif,system-ui,sans-serif;--mono:\"Azeret Mono\",ui-monospace,monospace;} .ds-pills{display:inline-flex;gap:4px;padding:4px;border-radius:999px;background:var(--raised);border:1px solid var(--line);} .ds-pills a{padding:9px 16px;border-radius:999px;font:600 .95rem var(--body);text-decoration:none;color:var(--muted);transition:color .2s,background-color .2s;} .ds-pills a:hover{color:var(--text);background:var(--surface-2);} .ds-pills a.ds-on{color:var(--text);background:var(--surface-2);box-shadow:inset 0 -2px 0 var(--mint);} .ds-pills a:focus-visible{outline:3px solid var(--mint);outline-offset:3px;}"
+    },
+    {
+      "name": "Category Filter",
+      "kind": "chip",
+      "refersTo": "filter-pill",
+      "description": "44px pill filters; pressed inverts to text-on-ground.",
+      "html": "<div class=\"ds-fl\"><button aria-pressed=\"true\">All</button><button aria-pressed=\"false\">Trade kits</button><button aria-pressed=\"false\">Accounting</button></div>",
+      "css": ":root{--bg:#0c0d0f;--raised:#131518;--surface:#17191d;--surface-2:#1d2025;--line:rgba(236,237,238,.09);--line-2:rgba(236,237,238,.16);--text:#ecedee;--muted:#a3a8af;--mint:#6ee7a0;--green:#22804f;--green-deep:#1b6a41;--amber:#fbbf24;--ease:cubic-bezier(.16,1,.3,1);--display:\"Archivo\",ui-sans-serif,system-ui,sans-serif;--body:\"Atkinson Hyperlegible Next\",ui-sans-serif,system-ui,sans-serif;--mono:\"Azeret Mono\",ui-monospace,monospace;} .ds-fl{display:flex;gap:8px;padding:12px;background:var(--bg);} .ds-fl button{min-height:44px;padding:0 16px;border-radius:999px;border:1px solid var(--line-2);background:transparent;color:var(--muted);font:700 .95rem var(--body);cursor:pointer;transition:color .2s,border-color .2s,background-color .2s;} .ds-fl button:hover{color:var(--text);} .ds-fl button[aria-pressed=\"true\"]{color:var(--bg);background:var(--text);border-color:var(--text);} .ds-fl button:focus-visible{outline:3px solid var(--mint);outline-offset:3px;}"
+    },
+    {
+      "name": "Field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "Ground-filled 48px field under a muted label; mint focus ring and caret.",
+      "html": "<label class=\"ds-field\">Your email<input type=\"email\" placeholder=\"you@example.com\"></label>",
+      "css": ":root{--bg:#0c0d0f;--raised:#131518;--surface:#17191d;--surface-2:#1d2025;--line:rgba(236,237,238,.09);--line-2:rgba(236,237,238,.16);--text:#ecedee;--muted:#a3a8af;--mint:#6ee7a0;--green:#22804f;--green-deep:#1b6a41;--amber:#fbbf24;--ease:cubic-bezier(.16,1,.3,1);--display:\"Archivo\",ui-sans-serif,system-ui,sans-serif;--body:\"Atkinson Hyperlegible Next\",ui-sans-serif,system-ui,sans-serif;--mono:\"Azeret Mono\",ui-monospace,monospace;} .ds-field{display:grid;gap:6px;padding:16px;background:var(--surface);font:400 .92rem var(--body);color:var(--muted);} .ds-field input{min-height:48px;padding:10px 14px;border-radius:12px;border:1px solid var(--line-2);background:var(--bg);color:var(--text);font:400 1rem var(--body);caret-color:var(--mint);} .ds-field input:focus-visible{outline:3px solid var(--mint);outline-offset:3px;}"
+    },
+    {
+      "name": "Ruled Rows",
+      "kind": "custom",
+      "refersTo": "row-title",
+      "description": "Lists as hairline rows under a stronger top rule: Archivo name, muted description.",
+      "html": "<ul class=\"ds-rules\"><li><b>Made for one trade</b><p>Each kit fits one kind of work.</p></li><li><b>Same details once</b><p>A quote becomes the invoice without retyping.</p></li></ul>",
+      "css": ":root{--bg:#0c0d0f;--raised:#131518;--surface:#17191d;--surface-2:#1d2025;--line:rgba(236,237,238,.09);--line-2:rgba(236,237,238,.16);--text:#ecedee;--muted:#a3a8af;--mint:#6ee7a0;--green:#22804f;--green-deep:#1b6a41;--amber:#fbbf24;--ease:cubic-bezier(.16,1,.3,1);--display:\"Archivo\",ui-sans-serif,system-ui,sans-serif;--body:\"Atkinson Hyperlegible Next\",ui-sans-serif,system-ui,sans-serif;--mono:\"Azeret Mono\",ui-monospace,monospace;} .ds-rules{list-style:none;margin:0;padding:0 16px;background:var(--bg);border-top:1px solid var(--line-2);} .ds-rules li{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:24px;align-items:baseline;padding:18px 0;border-bottom:1px solid var(--line);} .ds-rules b{font:700 1.25rem var(--display);font-stretch:90%;color:var(--text);} .ds-rules p{margin:0;color:var(--muted);font:400 1rem/1.6 var(--body);}"
+    },
+    {
+      "name": "Demo Step Node",
+      "kind": "custom",
+      "refersTo": "panel",
+      "description": "Signature quote-to-invoice demo: a bench panel of step nodes with mono status; done nodes go mint.",
+      "html": "<div class=\"ds-demo\"><div class=\"ds-node ds-done\"><span class=\"ds-ic\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" aria-hidden=\"true\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M20 6 9 17l-5-5\"/></svg></span><span><b>1. Quote written</b><small>Front tyre change</small></span><em>Ready</em></div><div class=\"ds-node ds-active\"><span class=\"ds-ic\"><svg viewBox=\"0 0 24 24\" width=\"18\" height=\"18\" aria-hidden=\"true\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M20 6 9 17l-5-5\"/></svg></span><span><b>2. Job done</b><small>Customer approved</small></span><em>Working</em></div></div>",
+      "css": ":root{--bg:#0c0d0f;--raised:#131518;--surface:#17191d;--surface-2:#1d2025;--line:rgba(236,237,238,.09);--line-2:rgba(236,237,238,.16);--text:#ecedee;--muted:#a3a8af;--mint:#6ee7a0;--green:#22804f;--green-deep:#1b6a41;--amber:#fbbf24;--ease:cubic-bezier(.16,1,.3,1);--display:\"Archivo\",ui-sans-serif,system-ui,sans-serif;--body:\"Atkinson Hyperlegible Next\",ui-sans-serif,system-ui,sans-serif;--mono:\"Azeret Mono\",ui-monospace,monospace;} .ds-demo{display:grid;gap:8px;padding:20px;border-radius:18px;background:var(--surface);border:1px solid var(--line);box-shadow:0 24px 48px -28px rgba(0,0,0,.9);} .ds-node{display:grid;grid-template-columns:36px 1fr auto;align-items:center;gap:12px;padding:11px 12px;border-radius:12px;border:1px solid var(--line);transition:border-color .4s var(--ease),background-color .4s var(--ease);font-family:var(--body);} .ds-node b{display:block;font-size:1rem;color:var(--text);} .ds-node small{font-size:.9rem;color:var(--muted);} .ds-ic{width:36px;height:36px;border-radius:10px;display:grid;place-items:center;background:var(--surface-2);color:var(--muted);} .ds-node em{font:normal 700 .82rem var(--mono);color:var(--muted);} .ds-done{border-color:rgba(110,231,160,.35);} .ds-done .ds-ic{color:var(--mint);background:rgba(110,231,160,.1);} .ds-done em{color:var(--mint);} .ds-active{background:var(--surface-2);}"
+    },
+    {
+      "name": "Placeholder Mark",
+      "kind": "custom",
+      "refersTo": "amber",
+      "description": "Unproven value: dashed amber underline and trailing amber dagger. Must be replaced before launch.",
+      "html": "<p class=\"ds-ph-wrap\">Price <span class=\"ds-ph\">$24</span></p>",
+      "css": ":root{--bg:#0c0d0f;--raised:#131518;--surface:#17191d;--surface-2:#1d2025;--line:rgba(236,237,238,.09);--line-2:rgba(236,237,238,.16);--text:#ecedee;--muted:#a3a8af;--mint:#6ee7a0;--green:#22804f;--green-deep:#1b6a41;--amber:#fbbf24;--ease:cubic-bezier(.16,1,.3,1);--display:\"Archivo\",ui-sans-serif,system-ui,sans-serif;--body:\"Atkinson Hyperlegible Next\",ui-sans-serif,system-ui,sans-serif;--mono:\"Azeret Mono\",ui-monospace,monospace;} .ds-ph-wrap{padding:16px;background:var(--surface);color:var(--text);font:800 1.6rem var(--display);font-stretch:90%;} .ds-ph{border-bottom:1px dashed var(--amber);} .ds-ph::after{content:\"\\2020\";color:var(--amber);font-size:.8em;margin-left:1px;}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Lit Workbench",
+    "overview": "A dark, quiet shop counter with one working machine on it. The ground is a neutral near-black with no hue cast, the surfaces are solid slabs a few steps lighter, and every list is a hairline-ruled row. Against that restraint the product does the talking: the first screen runs the live kit from quote to invoice inside a solid panel, and a light paper document unrolls out of the dark when the demo finishes. Green is the only colour with a job, and it means \"live, done, go\".\n\nHeadings are Archivo at its heaviest and slightly narrowed, so short plain sentences land like signage. Reading text is Atkinson Hyperlegible Next at a generous size; Azeret Mono appears only where something is data (status words, step numbers, prices in estimates). The world keeps the owner's benchmark structure (sticky pill nav, two-column hero with a product panel, catalogue with filters, services with an estimator, final call, four-column footer) and refuses that benchmark's AI-tool costume: no purple gradients, glass, glow, gradient text, eyebrow labels, hero stat strips or icon-card grids.\n\nThis is a mockup with the proof rule relaxed by the owner for this site only. Unproven facts (prices, working titles, counts) are marked as placeholders and must be replaced before launch. Before launch also: self-host Archivo, Atkinson Hyperlegible Next and Azeret Mono (the mock loads them from Google Fonts), and write the Privacy, Terms and Service terms pages (their footer links are marked as to-do).",
+    "keyCharacteristics": [
+      "Neutral near-black ground with three solid surface steps and two white hairline weights.",
+      "One accent family: mint for state and emphasis, deep green for filled buttons.",
+      "Archivo 850 at 90 percent width for every heading; Atkinson for reading; mono only for data.",
+      "Ruled rows for lists; panels only for working things (demo, estimator, Studio view, mailbox, dialogs).",
+      "Amber means unfinished or stopped, never decoration."
+    ],
+    "rules": [
+      {
+        "name": "The One Green Rule",
+        "body": "Green is the only accent. Mint carries state and emphasis; `green` carries filled buttons. Any second hue on a surface (other than amber's warning channel) is a defect.",
+        "section": "colors"
+      },
+      {
+        "name": "The Amber Means Unfinished Rule",
+        "body": "Amber marks a placeholder, a to-do or a stopped state. It is never used for emphasis or decoration, so every amber mark is something to resolve.",
+        "section": "colors"
+      },
+      {
+        "name": "The Mint Status Rule",
+        "body": "A green-tinted border (mint at 35 to 40 percent) marks the live or selected item: the live kit row, a done demo node, a checked estimator option. Everything else keeps the plain hairline.",
+        "section": "colors"
+      },
+      {
+        "name": "The Ninety-Width Rule",
+        "body": "Every h1, h2 and h3 is Archivo at 90 percent width with -0.02em tracking, 0.08em word spacing, 1.05 line height and balanced wrapping. Headings are weight 850; row-level Archivo labels drop to 700 or 800.",
+        "section": "typography"
+      },
+      {
+        "name": "The Mono Is Data Rule",
+        "body": "Azeret Mono appears only on values a machine would print: statuses, step numbers, prices in a calculator. Never on headings, buttons or prose; the demo's prompt strip deliberately stays in the body face.",
+        "section": "typography"
+      },
+      {
+        "name": "The Ruled Rows Rule",
+        "body": "Lists of reasons, steps, services, formats and works are hairline-ruled rows under a stronger top rule, not grids of icon cards.",
+        "section": "layout"
+      },
+      {
+        "name": "The 44px Floor Rule",
+        "body": "Every interactive target is at least 44px tall; primary buttons are 52px, fields 48px, drawer links 52px.",
+        "section": "layout"
+      },
+      {
+        "name": "The Solid Panel Rule",
+        "body": "Panels are solid fills with a 1px hairline. No backdrop blur, no translucency beyond the header, no glow.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do keep the ground neutral (`#0c0d0f`) and step depth through `raised`, `surface` and `surface-2` with 9 and 16 percent white hairlines.",
+      "Do use mint for state, ticks, step numbers, the focus ring and one emphasised headline line; use `green` for filled buttons with white text.",
+      "Do set every heading in Archivo 850 at 90 percent width, -0.02em tracking, 1.05 line height.",
+      "Do write lists as hairline-ruled rows, and reserve solid panels for things that work (demo, estimator, Studio view, mailbox, dialogs).",
+      "Do mark every unproven value with the dashed amber underline and †, and clear them all before launch.",
+      "Do keep every target at least 44px tall and keep the 3px mint focus ring.",
+      "Do honour reduced motion: no animation or transition when it is requested."
+    ],
+    "donts": [
+      "Don't use purple gradients, glass, backdrop blur, glow or gradient text.",
+      "Don't put eyebrow or kicker labels above headings, or a stat strip under the hero.",
+      "Don't build icon-card grids; icons appear only as ticks, demo step tiles and inline controls.",
+      "Don't introduce a second accent hue; amber is a warning channel, not decoration.",
+      "Don't use Azeret Mono outside data values.",
+      "Don't cast shadows on anything except bench panels and dialogs."
+    ]
+  }
+}

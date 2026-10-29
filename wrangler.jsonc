@@ -1,0 +1,11 @@
+// digitiska.com: static site served by the Cloudflare Worker "digitiska-main" (assets only, no server code).
+// Only the site/ folder is published; Products/ and Solat are not part of this deployment.
+{
+  "name": "digitiska-main",
+  "compatibility_date": "2025-10-01",
+  "assets": {
+    "directory": "./site",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}
