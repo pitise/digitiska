@@ -11,7 +11,7 @@ Public website for **digitiska.com**, plus earlier product experiments.
 
 ## The website
 
-Plain HTML, CSS and JavaScript, no build step. Fonts are self-hosted (`site/assets/fonts/`, SIL Open Font License 1.1). `site/_headers` sets a strict content security policy, so the pages use no inline scripts or styles and load nothing from other sites. Messages and the kit-news sign-up open the visitor's own email app (to digitiska@protonmail.com); the site stores nothing.
+Plain HTML, CSS and JavaScript, no build step. Fonts are self-hosted (`site/assets/fonts/`, SIL Open Font License 1.1). `site/_headers` sets a strict content security policy, so the pages use no inline scripts or styles and load nothing from other sites. Messages and the kit-news sign-up open the visitor's own email app (to digitiska@tuta.io); the site stores nothing.
 
 Small text edits: edit the file in `site/` on GitHub (pencil icon), then commit to a branch and open a pull request into `main`. Once Cloudflare is connected (below), merging to `main` publishes the change.
 
