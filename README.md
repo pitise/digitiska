@@ -17,6 +17,8 @@ Small text edits: edit the file in `site/` on GitHub (pencil icon), then commit 
 
 ## Connect Cloudflare (once)
 
+Connected on 29.Oct.2026: the Worker digitiska-main builds from `main` of this repo (Workers Builds), with preview builds for other branches.
+
 1. Cloudflare dashboard, **Workers & Pages**, open the Worker **digitiska-main** (it holds the custom domain digitiska.com).
 2. **Settings, Build**, connect the Git repository `pitise/digitiska`, production branch `main`.
 3. Build command: leave empty. Deploy command: `npx wrangler deploy`. Root directory: `/`.
